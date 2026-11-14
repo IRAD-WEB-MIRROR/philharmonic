@@ -27,6 +27,8 @@ h2{font:800 clamp(30px,5vw,54px)/.95 var(--num);text-transform:uppercase;margin:
 .filter button.on{background:var(--ink);color:var(--paper)}
 .hero{width:100%;display:block;aspect-ratio:21/9;object-fit:cover;max-width:100%}
 .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px}
+.recs{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px 30px}
+.rec{border-top:3px solid var(--blue);padding-top:10px}.rec b{display:block;font-size:17px}.rec span{display:block;font-size:14px;color:#555;margin:2px 0 8px}.rec audio{width:100%}
 .players{columns:3 220px;column-gap:30px}
 .players div{break-inside:avoid;padding:8px 0;border-bottom:1px solid var(--rule)}
 .players b{display:block;font:800 18px var(--num);text-transform:uppercase;letter-spacing:.06em;color:var(--blue);margin-top:14px}
